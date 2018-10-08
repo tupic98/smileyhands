@@ -1,6 +1,6 @@
 <template>
    <div>
-        <v-toolbar flat>
+        <v-toolbar>
             <v-toolbar-title class="toolbar-title">
                 <img src="@/assets/logofull.png" class="logo"/>
             </v-toolbar-title>

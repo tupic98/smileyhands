@@ -17,11 +17,11 @@
 
 .toolbar__elements{
   display: flex;
+  flex: 1;
   align-content: center;
   align-self: center;
   justify-content: center;
   text-align: center;
-  overflow: hidden;
 }
 
 /deep/ .v-toolbar__content{

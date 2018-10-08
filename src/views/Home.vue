@@ -1,35 +1,35 @@
 <template>
-  <v-container fluid>
-    <v-slide-y-transition mode="out-in">
-      <v-layout column align-center>
-        <img src="@/assets/logo.png" alt="Vuetify.js" class="mb-5">
-        <blockquote>
-          &#8220;First, solve the problem. Then, write the code.&#8221;
-          <footer>
-            <small>
-              <em>&mdash;John Johnson</em>
-            </small>
-          </footer>
-        </blockquote>
-      </v-layout>
-    </v-slide-y-transition>
-  </v-container>
+  <div class="rooty">
+    <div class="parallax">
+    </div>
+     <v-layout
+      align-center
+      column
+      justify-center class="protocolos">
+        <h1 class="display-2 font-weight-thin mb-3">Protocolos</h1>
+        <hr class="line">
+    </v-layout>
+    <div class="protocols__buttons">
+      <div class="button__container">
+          <img src="@/assets/protocol.svg" class="prtocol_img" alt="">
+          <h3>Protocolo 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi repellendus ad et placeat quod consectetur, architecto quidem voluptatum.</p>
+      </div>
+      <div class="button__container">
+          <img src="@/assets/protocol.svg" class="prtocol_img" alt="">
+          <h3>Protocolo 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi repellendus ad et placeat quod consectetur, architecto quidem voluptatum.</p>
+      </div>
+      <div class="button__container">
+          <img src="@/assets/protocol.svg" class="prtocol_img" alt="">
+          <h3>Protocolo 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi repellendus ad et placeat quod consectetur, architecto quidem voluptatum.</p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style lang="scss" scoped>
+  @import "./home.scss";
 </style>

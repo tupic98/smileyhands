@@ -1,0 +1,56 @@
+.parallax {
+     background-image: url("../assets/wallpaper.png");
+     min-height: 500px; 
+     opacity: 0.7;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.rooty{
+    height: 92.2279792746vh;
+    overflow-y: scroll;
+}
+
+.line{
+    background-color: black !important;
+    color: black;
+    border-color: black !important;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.protocolos{
+    margin: 20px;
+    padding-top: 100px;
+}
+.prtocol_img{
+    width: 80%;  
+    height: 80%;
+    
+}
+
+.button__container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    max-width: 15%;
+    padding: 20px;
+}
+
+.protocols__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}

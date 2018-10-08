@@ -10,12 +10,13 @@ export default new Router({
     {
       path: "/",
       component: Page,
-      redirect: 'home',
-      children: [{
-          path: "home",
-          name: "Home",
-          component: Home
+      redirect: "home",
+      children:[{
+        path:"home",
+        name: "Home",
+        component: Home
       }]
+
     },
     {
       path: "/about",
