@@ -1,0 +1,48 @@
+.toolbar-title{
+  margin-left: 0px;
+  flex: 1;
+}
+.right {
+  flex: 1;
+}
+.logo {
+  max-width: 185px;
+  max-height: 85px;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.toolbar__elements{
+  display: flex;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+/deep/ .v-toolbar__content{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 60px !important;
+}
+
+.toolbar__elements a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  font-size: 16px;
+  -webkit-transition: color 0.7s;
+    -moz-transition: color 0.7s;
+    -o-transition: color 0.7s;
+    transition: color 0.7s;
+}
+
+.toolbar__elements a:hover{
+  color:gray;
+}

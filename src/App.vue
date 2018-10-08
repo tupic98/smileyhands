@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <v-app>
     <v-navigation-drawer
       persistent
@@ -67,26 +67,50 @@
       <span>&copy; 2017</span>
     </v-footer>
   </v-app>
+</template>-->
+<template>
+  <v-app>
+    <router-view class="animated fadeIn"></router-view>
+  </v-app>
 </template>
-
 <script>
-
 export default {
   name: 'App',
   data () {
-    return {
-      clipped: false,
-      drawer: true,
-      fixed: false,
-      items: [{
-        icon: 'bubble_chart',
-        title: 'Inspire'
-      }],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
+    return{
+      show: true,
     }
+  },
+  components: {
+
   }
 }
 </script>
+<style>
+html{
+  overflow-y: hidden;
+}
+#app {
+	height: 100%;
+}
+</style>
+<!--<script>
+// export default {
+//   name: 'App',
+//   data () {
+//     return {
+//       clipped: false,
+//       drawer: true,
+//       fixed: false,
+//       items: [{
+//         icon: 'bubble_chart',
+//         title: 'Inspire'
+//       }],
+//       miniVariant: false,
+//       right: true,
+//       rightDrawer: false,
+//       title: 'Vuetify.js'
+//     }
+//   }
+// }
+</script>-->
